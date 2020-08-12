@@ -1,0 +1,2329 @@
+@font-face {
+    font-family: "Apercu Pro Medium";
+    src: url("fonts/Apercu Pro Medium.otf");
+}
+
+@font-face {
+    font-family: "Apercu Pro Regular";
+    src: url("fonts/Apercu Pro Regular.otf");
+}
+
+@font-face {
+    font-family: "Apercu Pro Bold";
+    src: url("fonts/Apercu Pro Bold.otf");
+}
+
+.home_renovation p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.homer {
+    font: 24px/102% 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #000000;
+    margin: 40px 0 36px 185px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu img {
+    display: none;
+}
+
+.first_block {
+    display: flex;
+    align-items: end;
+}
+
+
+/*modals */
+
+.error h4, .send h4 {
+    text-align: center;
+}
+
+.send button {
+    width: 78px;
+    height: 40px;
+    background-color: #28a745;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.error button {
+    width: 78px;
+    height: 40px;
+    background-color: #f0552b;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.slides li{
+    display: block;
+    box-sizing:border-box;
+    width: 600px;
+    margin: 0 30px;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slides li img {
+    width: 100%;
+}
+
+.scroll1 {
+    display: none;
+}
+.scroll1 img {
+    vertical-align: bottom;
+}
+
+
+.blue_area {
+    width: 56%;
+    height: 694px;
+    background: #3246D1;
+    position: relative;
+    padding: 102px 171px 118px 183px;
+}
+
+.blue_area h2 {
+    font: 45px/120% 'Apercu Pro Medium';
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    width: 437px;
+}
+
+.elevated p {
+    width: 40%;
+    margin: 11px auto 47px;
+}
+
+.elevated {
+    text-align: center;
+}
+
+.blue_button {
+    width: 195px;
+    height: 55px;
+    background: #14217A;
+    border-radius: 6px;
+    font: 16px/19px 'Apercu Pro Regular';
+    color: #FFFFFF;
+    border: none;
+}
+
+.blue_area p {
+    color: #FFFFFF;
+    width: 430px;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font: 18px/32px 'Apercu Pro Regular';
+}
+
+.dots {
+    position: absolute;
+    bottom: 9px;
+    right: -117px;
+}
+
+.right_img {
+    width: 42%;
+    height: 640px;
+    margin-left: -140px;
+    z-index: 2;
+}
+
+.right_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 273px;
+    margin-top: 102px;
+}
+
+.general {
+    font: 45px/140% 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+.under_logos {
+    width: 62%;
+    margin: 103px auto 0;
+}
+
+.under_logos p {
+    text-align: center;
+    color: #313131;
+    margin-top: 20px;
+}
+
+.tabs .line_right, .tabs .line_left {
+    width: 283px;
+    height: 6px;
+    background-color: #3246D1;
+}
+
+.tabs .line_right {
+    transform: rotate(33deg);
+    margin-left: 232px;
+}
+
+.tabs .line_left {
+    transform: rotate(145deg);
+    margin-bottom: -10px;
+}
+
+.roof {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    position: relative;
+    align-items: flex-end;
+}
+
+.industry {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tab_line {
+    padding: 60px 0 51px 103px;
+    border-bottom: 6px solid #3246D1;
+}
+
+.tab_line .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #1A1A1A;
+    background-color: transparent;
+    font-family: 'Apercu Pro Bold';
+}
+
+.tab_line .nav-pills .nav-link {
+    font: 32px/40px 'Apercu Pro Medium';
+    letter-spacing: -1px;
+    color: #A3A3A3;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.tabs_content img {
+    position: absolute;
+    top: -90px;
+    right: 0px;
+}
+
+.tabs, .tabs_content {
+    margin: 0 65px;
+
+}
+
+.tabs_content {
+    width: 512px;
+    height: 350px;
+}
+
+.tabs_content h2 {
+    font: 28px/35px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #313131;
+    margin-bottom: 20px;
+}
+
+.tabs_content p {
+    font: 20px/36px 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #484848;
+}
+
+.designers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 253px;
+}
+
+.designers_right h2 {
+    font: 45px/140% 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+    margin-bottom: 50px;
+}
+
+.comment {
+    font: 34px/160% 'Apercu Pro Bold';
+    letter-spacing: -0.5px;
+    color: #484848;
+    margin-bottom: 50px;
+}
+
+.designers_right {
+    width: 679px;
+}
+
+.dot_img {
+    width: 156.15px !important;
+    position: absolute;
+    height: 160.28px;
+    top: -97px;
+    right: -67px;
+    z-index: -999;
+}
+
+.designers_left {
+    position: relative;
+}
+
+.girl {
+    z-index: 9999999;
+    position: inherit;
+}
+
+.name {
+    font: 16px/20px 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+
+.address {
+    font: 14px/17px 'Apercu Pro Regular';
+    letter-spacing: -0.5px;
+    color: #484848;
+    margin-bottom: 8px;
+}
+
+.address img {
+    margin-right: 8px;
+}
+
+.how_it_work {
+    font: 45px/56px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+    text-align: center;
+    margin: 128px 0 65px;
+}
+
+.number_block_right {
+    background: no-repeat url("images/get-dot.svg");
+    width: 309px;
+    height: 317.26px;
+    margin-bottom: 130px;
+}
+
+.number_block {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.point span {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background: #EEF0FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 28px/28px 'Apercu Pro Bold';
+    text-align: center;
+    color: #3246D1;
+    margin-right: 20px;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+
+.point h2 {
+    font: 32px/40px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+    margin-bottom: 0;
+}
+
+.free {
+    font: 18px/32px 'Apercu Pro Regular';
+    color: #313131;
+    width: 500px;
+    margin: 0 0 60px 95px;
+}
+
+.estimate {
+    width: 360px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 7px 30px 80px rgba(76, 84, 86, 0.15);
+    border-radius: 12px;
+    margin-left: -132px;
+    margin-top: -218px;
+    padding: 50px 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.number_block_left {
+    width: 860px;
+}
+
+.estimate_img {
+    margin-top: 60px;
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.estimate h3 {
+    font: 24px/120% 'Apercu Pro Bold';
+    letter-spacing: -0.5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    color: #1A1A1A;
+}
+
+.estimate h2 {
+    font: 24px/102% 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #000000;
+    text-align: center;
+}
+
+.estimate li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+    height: 40px;
+}
+
+.estimate p {
+    font: 18px/120% 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #484848;
+}
+
+.proposal_img {
+    display: flex;
+    justify-content: center;
+}
+
+.proposal_left {
+    width: 44%;
+    position: relative;
+}
+
+.proposal_right {
+    width: 57%;
+    margin-left: 38px;
+}
+
+.proposal_right img {
+    margin-bottom: 40px;
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.furniture {
+    width: 100%;
+    height: 550px;
+}
+
+.proposal .free {
+    margin: 0 0 46px 95px;
+}
+
+.furniture_dots {
+    position: absolute;
+    height: 317px;
+    left: -96px;
+    bottom: 101px;
+    z-index: -999;
+}
+
+.home {
+    display: flex;
+    margin-top: 20px;
+}
+
+.dream_home {
+    margin-top: 43px;
+}
+
+.dream_home .point {
+    margin-bottom: 15px;
+}
+
+/*.home_left {*/
+    /*width: 33%;*/
+    /*height: 240px;*/
+/*}*/
+
+.home_left img {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.lamp {
+    width: 59%;
+    /*height: 450px;*/
+    margin-left: 26px;
+    position: relative;
+}
+
+.home_dots {
+    position: absolute;
+    left: -128px;
+    bottom: -77px;
+    width: 309px !important;
+    height: 317.26px !important;
+    z-index: -9999;
+}
+
+.lamp img {
+    width: 100%;
+    height: 100%;
+}
+
+/* why homer*/
+
+.why_homer {
+    height: 960px;
+    margin-bottom: 180px;
+    background: #F3F4F9;
+    margin-top: 200px;
+    padding-top: 80px;
+}
+
+.why {
+    font: 48px/60px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.experience {
+    background-color: #fff;
+    padding: 93px 100px 105px;
+    box-shadow: 7px 49px 60px rgba(183, 187, 215, 0.2);
+    border-radius: 24px;
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.homer_content {
+    display: flex;
+    justify-content: center;
+}
+
+.typical_experience {
+    width: 64%;
+}
+
+.typical_experience li, .homer_way li {
+    display: flex;
+    align-items: center;
+    font: 20px/24px 'Apercu Pro Regular';
+    letter-spacing: -0.5px;
+    padding: 15px 0;
+}
+
+.typical_experience li {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.typical_experience li span {
+    color: #1A1A1A;
+    font-family: 'Apercu Pro Medium';
+    width: 33%;
+    margin-right: 15px;
+}
+
+.typical_experience li p {
+    width: 60%;
+}
+
+.homer_way {
+    width: 41%;
+    background: #EBEDFA;
+    border-radius: 12px;
+    padding: 40px 20px;
+    margin-top: -33px;
+}
+
+.homer_way li {
+    align-items: baseline;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.homer_way img {
+    margin-right: 20px;
+}
+
+.materials {
+    height: 80px;
+}
+
+.typical_experience h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.experience h2 {
+    font: 24px/30px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+}
+
+.started a {
+    font: 20px/25px 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #1A1A1A;
+}
+
+.started .blue_button {
+    background: #3246D1;
+    margin-left: 16px;
+}
+
+.started {
+    text-align: right;
+    margin-top: 60px;
+}
+
+.before_after {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 310px;
+}
+
+.before_after .about {
+    font: 34px/160% 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #484848;
+    width: 420px;
+    margin-bottom: 10px;
+}
+
+.before_after_dots_section {
+    position: absolute;
+    top: -75px;
+    right: 671px;
+    z-index: -1;
+}
+
+.users h2 {
+    font: 18px/22px 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #1A1A1A;
+}
+
+.cont_name {
+    font: 16px/19px 'Apercu Pro Regular';
+    letter-spacing: -0.5px;
+    color: #1A1A1A;
+}
+
+.contact {
+    font: 14px/17px 'Apercu Pro Regular';
+    letter-spacing: -0.5px;
+    color: #484848;
+}
+
+.contractors_img {
+    width: 84.96px;
+    height: 80.79px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.cont_cont {
+    display: flex;
+}
+
+.user {
+    display: flex;
+}
+
+.user h2 {
+    font: 18px/22px 'Apercu Pro Medium';
+    letter-spacing: -0.5px;
+    color: #1A1A1A;
+}
+
+.after, .before {
+    margin-left: 20px;
+}
+
+.after div, .before div {
+    width: 100px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font: 16px/20px 'Apercu Pro Medium';
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.before, .after {
+    position: relative;
+}
+
+.upgrade {
+    width: 100%;
+    height: 215px;
+    left: 0;
+    background: #3246D1;
+    margin-top: 120px;
+}
+
+.upgrade_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.learn_more h2 {
+    font: 45px/56px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.learn_more p {
+    font: 16px/26px 'Apercu Pro Regular';
+    color: #FFFFFF;
+}
+
+.email .input-group {
+    width: 500px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 0.5px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.email .input-group input {
+    border: none;
+    height: 100%;
+}
+
+.input-group > .custom-file, .input-group > .custom-select, .input-group > .form-control, .input-group > .form-control-plaintext {
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25) !important;
+}
+
+.email .input-group button {
+    width: 190px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.started1 {
+    display: none;
+}
+
+.email button {
+    font: 16px/26px 'Apercu Pro Bold';
+    color: #3246D1;
+}
+
+.accordion {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font: 24px/30px 'Apercu Pro Medium';
+    letter-spacing: -1px;
+    color: #313131;
+    display: flex;
+    align-items: center;
+}
+
+.accordion span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    background: #313131;
+    margin-right: 24px;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    float: right;
+    margin-left: auto;
+}
+
+.accordion_content .active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    font: 18px/30px 'Apercu Pro Regular';
+    letter-spacing: -0.5px;
+    color: #484848;
+    width: 788px;
+    margin-bottom: 30px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.faq {
+    width: 1025px;
+    margin: 100px auto 0;
+}
+
+.faq h2 {
+    text-align: center;
+    font: 45px/56px 'Apercu Pro Bold';
+    letter-spacing: -1px;
+    color: #1A1A1A;
+    margin-bottom: 60px;
+}
+
+.accordion_content {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.about_homer_renovation {
+    display: flex;
+    justify-content: space-between;
+    padding: 104px 180px 89px 180px;
+}
+
+.social_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.social_btn > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid #000000;
+    border-radius: 50%;
+}
+
+.address_footer_section {
+    display: flex;
+    width: 560px;
+    justify-content: space-between;
+}
+
+.address_footer_section h2 {
+    font: 28px/102% "Apercu Pro Bold";
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+.address_footer_section p {
+    font: 14px/29px "Apercu Pro Regular";
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.social_btn > div:hover {
+
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.08);
+    border: transparent;
+}
+
+.facebook_btn {
+    background: url("images/facebook.png") no-repeat center;
+
+}
+
+.facebook_btn:hover {
+    background: #3246D1 url("images/facebook_hover.svg") no-repeat center;
+
+}
+
+.instagram_btn {
+    background: url("images/instagram.svg") no-repeat center;
+    background-size: 40px;
+}
+
+.instagram_btn:hover {
+    background: #3246D1 url("images/instagram_hover_icon.svg") no-repeat center;
+
+}
+
+.twitter_btn {
+    background: url("images/twitter.png") no-repeat center;
+}
+
+.twitter_btn:hover {
+    background: #3246D1 url("images/twitter_hover.svg") no-repeat center;
+}
+.homer_way1 {
+    display: none;
+}
+.about_homer_renovation h2 {
+    font: 28px/102% "Apercu Pro Bold";
+    font-style: normal;
+    letter-spacing: -1px;
+    color: #000000;
+
+}
+.blue_button img {
+    margin-left: 10px;
+    width: 15px;
+}
+
+.owl_blue_button {
+    margin-left: 20px;
+}
+
+.position {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
+    height: 132px;
+    background: rgba(255, 255,255, 0.7);
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+
+.position img {
+    width: 15px!important;
+    height: 15px;
+}
+
+.position h2 {
+    font-size: 35px;
+    font-family: "Apercu Pro Bold";
+}
+
+.position p {
+    font-size: 30px;
+    font-family: "Apercu Pro Regular";
+}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    height: 640px;
+}
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+    height: 100%;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .9}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .9}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+
+
+/*responsive*/
+
+@media only screen and (max-width: 1459px) {
+    .blue_area {
+        padding: 102px 171px 118px 144px;
+    }
+
+    .blue_area h2 {
+        font: 42px/120% 'Apercu Pro Medium';
+    }
+
+    .logos {
+        padding: 0 260px;
+        margin-top: 80px;
+    }
+
+    .general {
+        font: 42px/130% 'Apercu Pro Bold';
+    }
+
+    .designers_right h2 {
+        font: 42px/140% 'Apercu Pro Bold';
+        margin-bottom: 40px;
+    }
+
+    .comment {
+        font: 32px/150% 'Apercu Pro Bold';
+        margin-bottom: 40px;
+    }
+
+    .industry {
+        width: 85%;
+    }
+
+    .how_it_work {
+        font: 42px/52px 'Apercu Pro Bold';
+        margin: 110px 0 50px;
+    }
+
+    .point span {
+        width: 70px;
+        height: 70px;
+        font: 26px/29px 'Apercu Pro Bold';
+    }
+
+    .point h2 {
+        font: 30px/38px 'Apercu Pro Bold';
+    }
+
+    .home {
+        margin-top: 20px;
+    }
+
+    .why {
+        font: 42px/58px 'Apercu Pro Bold';
+        margin-bottom: 50px;
+    }
+
+    .experience {
+        padding: 83px 80px 90px;
+    }
+
+    .before_after {
+        margin-top: 210px;
+        position: relative;
+    }
+
+    .before_after .about {
+        font: 32px/150% 'Apercu Pro Medium';
+    }
+
+    .learn_more h2 {
+        font: 42px/55px 'Apercu Pro Bold';
+    }
+
+    .faq h2 {
+        font: 42px/54px 'Apercu Pro Bold';
+        margin-bottom: 50px;
+    }
+
+    .faq {
+        width: 1125px;
+        margin: 80px auto 0;
+    }
+
+    .about_homer_renovation {
+        padding: 90px 110px 70px 110px;
+    }
+    .proposal_right img {
+        margin-bottom: 40px;
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1359px) {
+
+    .elevated p {
+        width: 62%;
+    }
+
+.slideshow-container {
+    height: 512px;
+}
+
+    .slides li {
+        width: 544px;
+    }
+
+    .dots {
+        right: -186px;
+    }
+
+    .right_img {
+        margin-left: -80px;
+        height: 503px;
+    }
+
+    .blue_area {
+        padding: 70px 171px 118px 90px;
+        height: 570px;
+    }
+
+    .blue_area h2 {
+        font: 40px/110% 'Apercu Pro Medium';
+    }
+
+    .paragraph {
+        font: 16px/30px 'Apercu Pro Regular';
+    }
+
+    .blue_area p {
+        width: 100%;
+    }
+
+    .logos {
+        padding: 0 150px;
+    }
+
+    .under_logos {
+        width: 67%;
+    }
+
+    .general {
+        font: 40px/120% 'Apercu Pro Bold';
+    }
+
+    .industry {
+        width: 90%;
+    }
+
+    .designers_right h2 {
+        font: 40px/130% 'Apercu Pro Bold';
+        margin-bottom: 30px;
+    }
+
+    .comment {
+        font: 30px/130% 'Apercu Pro Bold';
+        margin-bottom: 30px;
+    }
+
+    .how_it_work {
+        font: 40px/50px 'Apercu Pro Bold';
+        margin: 90px 0 40px;
+    }
+
+    .estimate h3 {
+        font: 20px/117% 'Apercu Pro Bold';
+    }
+
+    .estimate h2 {
+        font: 22px/102% 'Apercu Pro Bold';
+    }
+
+    .estimate {
+        padding: 50px 50px 40px;
+    }
+
+    .typical_experience li, .homer_way li {
+        font: 16px/20px 'Apercu Pro Regular';
+        display: flex;
+        padding: 12px 0;
+    }
+
+    .experience h2 {
+        font: 22px/28px 'Apercu Pro Bold';
+    }
+
+    .blue_button {
+        width: 180px;
+        height: 50px;
+        font: 14px/17px 'Apercu Pro Regular';
+    }
+
+    .why_homer {
+        margin-top: 170px;
+        padding-top: 70px;
+    }
+
+    .before_after .about {
+        font: 30px/140% 'Apercu Pro Medium';
+    }
+
+    .upgrade_content {
+        width: 1180px;
+        padding: 0 30px;
+    }
+
+    .designers {
+        margin-top: 200px;
+    }
+
+    .designers_right {
+        width: 50%;
+        margin: auto;
+    }
+
+    .tabs .line_right, .tabs .line_left {
+        width: 207px;
+    }
+
+    .tabs .line_right {
+        margin-left: 170px;
+    }
+
+    .tab_line {
+        padding: 51px 0 25px 72px;
+        width: 362px;
+    }
+
+    .tabs, .tabs_content {
+        margin: 0 24px;
+    }
+    .tabs_content {
+        height: 300px;
+    }
+
+    .number_block_right {
+        width: 30%;
+    }
+
+    .experience {
+        padding: 93px 33px 105px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .faq {
+        width: 90%;
+        margin: 80px auto 0;
+    }
+
+    .contractors {
+        width: 30%;
+    }
+
+    .before_after .about {
+        width: 100%;
+    }
+
+    .after, .before {
+        width: 48%;
+        height: 410px;
+    }
+
+    .cont_cont {
+        width: 60%;
+    }
+
+    .after img, .before img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .number_block_left {
+        width: 70%;
+    }
+
+    .estimate_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .estimate {
+        width: unset;
+        height: 420px;
+        margin-left: -19px;
+        margin-top: -200px;
+    }
+
+    .learn_more h2 {
+        font: 40px/52px 'Apercu Pro Bold';
+    }
+
+    .about_homer_renovation {
+        padding: 90px 100px 70px 100px;
+    }
+
+    .upgrade {
+        height: 185px;
+    }
+
+    .email .input-group {
+        width: 400px;
+    }
+
+    .email .input-group button {
+        width: 140px;
+    }
+
+    .after div, .before div {
+        height: 40px;
+        top: 17px;
+        font: 14px/20px 'Apercu Pro Medium';
+    }
+
+    .tab_line .nav-pills .nav-link {
+        font: 27px/40px 'Apercu Pro Medium';
+        margin-top: 10px !important;
+    }
+    .proposal_right img {
+        height: 340px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .position h2 {
+        font-size: 25px;
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+        height: 350px;
+    }
+
+    .number_block {
+        align-items: flex-start;
+    }
+
+    .estimate_img {
+        margin-top: 37px;
+    }
+
+    .block_content {
+        width: 64%;
+    }
+
+    .designers_left {
+        width: 43%;
+    }
+
+    .designers_left img {
+        width: 100%;
+    }
+
+    .dots {
+        right: -225px;
+    }
+
+    .right_img {
+        margin-left: -40px;
+    }
+
+    .blue_area {
+        padding: 70px 100px 114px 90px;
+    }
+
+    .blue_area h2 {
+        font: 34px/110% 'Apercu Pro Medium';
+        margin-bottom: 29px;
+    }
+
+    .logos {
+        padding: 0 140px;
+    }
+
+
+
+    .under_logos {
+        width: 72%;
+    }
+
+    .experience {
+        padding: 93px 20px 105px;
+        width: 95%;
+    }
+
+    .general {
+        font: 34px/120% 'Apercu Pro Bold';
+    }
+
+    .tabs_content p {
+        font: 18px/32px 'Apercu Pro Medium';
+    }
+
+    .designers_right {
+        width: 60%;
+        margin-left: 40px;
+    }
+
+    .designers_right h2 {
+        font: 34px/110% 'Apercu Pro Bold';
+
+    }
+
+    .proposal_right img {
+        width: 100%;
+    }
+
+    .furniture {
+        width: 100%;
+        height: 510px;
+    }
+
+    .comment {
+        font: 24px/110% 'Apercu Pro Bold';
+    }
+
+    .estimate p {
+        font: 16px/115% 'Apercu Pro Medium';
+    }
+
+    .estimate h2 {
+        font: 20px/102% 'Apercu Pro Bold';
+    }
+
+    .estimate {
+        padding: 50px 40px 40px;
+    }
+
+    .upgrade_content {
+        width: 90%;
+    }
+
+    .estimate {
+        height: 420px;
+        margin-left: -45px;
+        margin-top: -116px;
+        padding: 50px 50px 60px;
+    }
+
+    .how_it_work {
+        font: 36px/50px 'Apercu Pro Bold';
+    }
+
+    .why_homer {
+        padding-top: 50px;
+        margin-top: 140px;
+    }
+
+    .before_after_dots_section {
+        right: 28%;
+    }
+
+    .before_after .about {
+        font: 26px/140% 'Apercu Pro Medium';
+    }
+
+    .before_after {
+        margin-top: 160px;
+    }
+
+    .learn_more h2 {
+        font: 36px/50px 'Apercu Pro Bold';
+    }
+
+    .faq h2 {
+        font: 38px/50px 'Apercu Pro Bold';
+        margin-bottom: 40px;
+    }
+
+    .accordion {
+        font: 22px/28px 'Apercu Pro Medium';
+    }
+
+    .accordion span {
+        width: 10px;
+        height: 10px;
+    }
+
+    .address_footer_section h2 {
+        font: 24px/90% "Apercu Pro Bold";
+    }
+
+    .about_homer_renovation {
+        padding: 90px 80px 70px 80px;
+    }
+
+    .homer_way {
+        padding: 40px 15px;
+    }
+
+    .address_footer_section {
+        width: 470px;
+    }
+    /*.lamp {*/
+        /*width: 77%;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 991px) {
+
+    .elevated p {
+        width: 80%;
+    }
+    
+    .right_img {
+        width: 45%;
+    }
+
+    .slides li {
+        width: 500px;
+    }
+
+    .designers {
+        margin-top: 141px;
+    }
+
+    .before_after {
+        margin-top: 49px;
+    }
+
+    .about_homer_renovation {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .address_footer_section {
+        margin: 53px auto 0;
+    }
+
+    .before_after {
+        flex-direction: column;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .social_btn {
+        width: 185px;
+    }
+
+    .user {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .cont_cont {
+        width: 80%;
+        margin: 40px auto 0;
+    }
+
+    .contractors {
+        width: 79%;
+    }
+
+    .before_after_dots_section {
+        display: none;
+    }
+
+    .logos div {
+        margin: 0 auto;
+        width: 30%;
+        height: 23px;
+    }
+
+    .logos div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .free {
+        width: 75%;
+        padding: 0 10px;
+        font: 18px/30px 'Apercu Pro Regular';
+    }
+
+    .number_block_left {
+        width: 65%;
+    }
+
+    .after, .before {
+        height: 320px;
+    }
+
+    .homer_way img {
+        margin-right: 9px;
+    }
+
+    .right_img {
+        margin-left: -30px;
+        height: 560px;
+    }
+
+    .blue_area {
+        padding: 70px 100px 83px 45px;
+        height: 603px;
+    }
+
+    .blue_area h2 {
+        font: 30px/100% 'Apercu Pro Medium';
+    }
+
+    .logos {
+        padding: 0 33px;
+    }
+
+    .under_logos {
+        width: 76%;
+    }
+
+    .general {
+        font: 30px/120% 'Apercu Pro Bold';
+    }
+
+    .tabs_content p {
+        font: 16px/30px 'Apercu Pro Medium';
+    }
+
+    .designers_right {
+        width: 50%;
+        margin-left: 40px;
+    }
+    .tab_line {
+        padding: 51px 0 25px 40px;
+    }
+    .tab_line .nav-pills .nav-link {
+        font: 24px/40px 'Apercu Pro Medium';
+
+    }
+    .tabs, .tabs_content {
+        margin: 0 10px;
+    }
+    .tabs_content h2 {
+        font: 26px/35px 'Apercu Pro Bold';
+    }
+    .industry {
+        width: 95%;
+    }
+
+    .designers_right h2 {
+        font: 30px/100% 'Apercu Pro Bold';
+    }
+
+    .comment {
+        font: 22px/100% 'Apercu Pro Bold';
+    }
+
+    .estimate p {
+        font: 14px/100% 'Apercu Pro Medium';
+    }
+
+    .estimate h2 {
+        font: 16px/100% 'Apercu Pro Bold';
+    }
+
+    .upgrade_content {
+        width: 90%;
+    }
+
+    .number_block_right {
+        width: 35%;
+    }
+
+    .estimate {
+        width: 100%;
+        height: 369px;
+        margin-left: -8px;
+        margin-top: -111px;
+        padding: 40px 30px 30px;
+    }
+
+    .how_it_work {
+        font: 34px/48px 'Apercu Pro Bold';
+        margin: 80px 0 30px;
+    }
+
+    .point span {
+        width: 64px;
+        height: 64px;
+    }
+    .number_block {
+        margin-bottom: 60px;
+    }
+    .home_left {
+        width: 90%;
+    }
+    .proposal_right img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .slides li {
+        width: 443px;
+    }
+
+    .address_footer_section {
+        width: unset;
+        display: flex;
+        justify-content: space-around;
+        margin: 53px 0 0 0 !important;
+    }
+
+    .first_block {
+        flex-direction: column;
+    }
+
+    .blue_area {
+        width: 100%;
+        text-align: center;
+        padding: 70px 50px 60px;
+        height: auto;
+    }
+
+    .right_img {
+        display: none;
+    }
+
+    .logos {
+        margin-top: 60px;
+    }
+
+    .under_logos {
+        margin: 80px auto 0;
+    }
+
+    .general {
+        font: 35px/120% 'Apercu Pro Bold';
+    }
+
+    .tabs_content img {
+        display: none;
+    }
+
+    .tabs, .tabs_content {
+        margin: 0 auto;
+    }
+
+    .tabs_content {
+        text-align: center;
+        margin-top: 40px;
+        height: unset;
+    }
+
+    .tabs_content h2 {
+        font: 30px/37px 'Apercu Pro Bold';
+    }
+
+    .tabs_content p {
+        font: 20px/160% 'Apercu Pro Medium';
+    }
+
+    .designers {
+        flex-direction: column;
+    }
+
+    .designers_left {
+        width: 62%;
+        margin: 0 auto;
+    }
+
+    .tab_line .nav-pills .nav-link {
+        font: 32px/40px 'Apercu Pro Medium';
+    }
+
+    .roof {
+        flex-direction: column;
+        margin-top: 76px;
+    }
+
+    .blue_area h2 {
+        font: 45px/120% 'Apercu Pro Medium';
+    }
+
+    .paragraph {
+        font: 18px/160% 'Apercu Pro Regular';
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .homer_way1 img {
+        margin-right: 20px;
+    }
+
+    .homer_way {
+        display: none;
+    }
+
+    .homer_way1 {
+        display: block;
+        padding: 30px 15px 50px !important;
+        box-shadow: 4px 16px 40px rgba(183, 187, 215, 0.2);
+    }
+
+    .experience {
+        background-color: unset;
+        padding: 0;
+        width: 100%;
+        border-radius: unset;
+    }
+
+    .typical_experience {
+        background: #FFFFFF;
+        border-radius: 12px;
+        padding: 30px 15px;
+    }
+
+    .homer_way1 {
+        margin-top: 20px !important;
+    }
+
+    .before_after .about {
+        font: 24px/160% 'Apercu Pro Medium';
+    }
+
+    .why_homer {
+        height: unset;
+    }
+
+    .upgrade {
+        margin-top: 80px;
+        height: unset;
+        padding: 40px 0 46px 0;
+    }
+
+    .upgrade_content {
+        text-align: center;
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .email .input-group {
+        margin: 24px auto 0;
+    }
+
+    .panel p {
+        width: 100%;
+    }
+
+    .before_after {
+        margin-top: 0;
+    }
+
+    /*.lamp {*/
+        /*height: 328.73px;*/
+    /*}*/
+
+    .before_after {
+        padding-top: 80px;
+    }
+
+    .homer_content {
+        flex-direction: column;
+    }
+
+    .typical_experience {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .number_block {
+        flex-direction: row-reverse;
+        margin-top: 30px;
+    }
+
+    .number_block_right {
+        background-image: none;
+    }
+
+    .estimate {
+        height: 304px;
+        margin-top: -10px;
+        padding: 31px 30px 30px;
+        box-shadow: 4.43333px -19px 50.6667px rgba(76, 84, 86, 0.15);
+        margin-left: 30px;
+    }
+
+
+    .number_block_left {
+        height: 280px;
+    }
+
+    .estimate_img {
+        object-fit: cover;
+    }
+
+    .block_content {
+        width: 100%;
+    }
+
+    .estimate h3 {
+        font: 15px/120% 'Apercu Pro Bold';
+        width: 148px;
+    }
+
+    .estimate li {
+        height: 25px;
+    }
+
+    .estimate p {
+        font: 11px/120% 'Apercu Pro Medium';
+    }
+
+    .started1 {
+        display: block !important;
+        text-align: center;
+    }
+
+    .started {
+        display: none;
+        margin-top: 50px;
+    }
+
+    .designers_right {
+        width: 80%;
+        margin: 60px auto 40px;
+        text-align: center;
+    }
+
+    .how_it_work {
+        margin: 0 0 60px 0;
+    }
+
+    .point h2 {
+        font: 24px/30px 'Apercu Pro Bold';
+    }
+
+    .number_block_right {
+        margin-bottom: 0;
+    }
+
+    .number_block {
+        margin-bottom: 60px;
+    }
+
+    .proposal_left, .furniture_dots, .pop, .home_left, .home_dots {
+        display: none;
+    }
+
+    .lamp {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .why_homer {
+        margin-top: 76px;
+    }
+
+    .why {
+        margin-bottom: 40px;
+    }
+
+    .typical_experience li, .homer_way li {
+        font: 20px/25px 'Apercu Pro Regular';
+    }
+
+    .proposal_right {
+        width: 81%;
+        margin-left: 0;
+    }
+
+    .homer {
+        margin: 0;
+    }
+
+    .menu img {
+        display: block;
+    }
+
+    .menu {
+        padding: 30px;
+    }
+    .proposal_right img {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .position h2 {
+        font-size: 21px;
+    }
+
+    .about_homer_renovation {
+        padding: 50px 5px 70px;
+    }
+
+    .dot_img {
+        width: 98.15px !important;
+        top: -72px;
+        right: -25px;
+    }
+
+    .tabs_content {
+        width: 90%;
+    }
+
+    .point h2 {
+        font: 22px/30px 'Apercu Pro Bold';
+    }
+
+    .free {
+        font: 15px/28px 'Apercu Pro Regular';
+    }
+
+    .point span {
+        width: 60px;
+        height: 60px;
+    }
+
+    .number_block_left {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .number_block_right {
+        width: 67%;
+        margin: 0 auto;
+    }
+
+    .estimate p {
+        font: 14px/100% 'Apercu Pro Medium';
+    }
+    .estimate {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .typical_experience li, .homer_way li {
+        font: 16px/20px 'Apercu Pro Regular';
+    }
+
+    .social_btn > div {
+        width: 46px;
+        height: 46px;
+    }
+
+    .comment {
+        font: 20px/100% 'Apercu Pro Bold';
+    }
+
+    .designers_right h2 {
+        font: 26px/100% 'Apercu Pro Bold';
+    }
+
+    .tabs_content p {
+        font: 16px/30px 'Apercu Pro Medium';
+    }
+
+    .tab_line .nav-pills .nav-link {
+        font: 27px/40px 'Apercu Pro Medium';
+    }
+
+    .general {
+        font: 27px/120% 'Apercu Pro Bold';
+    }
+
+    .paragraph {
+        font: 16px/160% 'Apercu Pro Regular';
+    }
+
+    .blue_area h2 {
+        font: 32px/120% 'Apercu Pro Medium';
+    }
+
+    .paragraph {
+        font: 14px/160% 'Apercu Pro Regular';
+    }
+
+    .blue_area {
+        padding: 70px 31px 45px;
+        height: auto;
+    }
+
+    .cont_cont {
+        width: 96%;
+    }
+
+    .after, .before {
+        height: 253px;
+    }
+
+    .estimate {
+        margin-top: 57px;
+    }
+
+    .number_block {
+        flex-direction: column;
+    }
+
+    .after div, .before div {
+        height: 33px;
+        width: 76px;
+        font: 11px/20px 'Apercu Pro Medium';
+    }
+
+    .upgrade_content {
+        width: 100%;
+    }
+
+    .email .input-group {
+        width: 100%;
+    }
+
+    .accordion {
+        font: 15px/22px 'Apercu Pro Medium';
+        padding: 15px 0;
+    }
+
+    .faq h2 {
+        font: 35px/50px 'Apercu Pro Bold';
+        margin-bottom: 25px;
+    }
+
+    .faq {
+        margin: 45px auto 0;
+    }
+
+    .panel p {
+        font: 13px/22px 'Apercu Pro Regular';
+        margin-bottom: 14px;
+    }
+
+    .started .blue_button {
+        margin-top: 20px;
+    }
+    .accordion span {
+        width: 7px;
+        height: 7px;
+    }
+    .why {
+        font: 38px/44px 'Apercu Pro Bold';
+    }
+    .point span {
+        width: 50px;
+        height: 50px;
+        font: 24px/26px 'Apercu Pro Bold';
+    }
+    .point h2 {
+        font: 18px/27px 'Apercu Pro Bold';
+    }
+    .blue_button {
+        height: 40px;
+    }
+    .designers {
+        margin-top: 100px;
+    }
+    .under_logos {
+        margin: 50px auto 0;
+    }
+    .proposal_right img {
+        object-fit: contain;
+        height: auto;
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .cont_cont {
+        width: 96%;
+        justify-content: space-between;
+    }
+
+    .after, .before {
+        margin-left: 0;
+        height: auto;
+    }
+
+    .typical_experience li, .homer_way li {
+        font: 13px/20px 'Apercu Pro Regular';
+    }
+
+    .tabs .line_right, .tabs .line_left {
+        width: 156px;
+    }
+
+    .tabs .line_right {
+        margin-left: 126px;
+    }
+
+    .tab_line {
+        width: 230px;
+        margin: 0 auto;
+    }
+
+    .tab_line {
+        padding: 51px 0 25px 19px;
+    }
+
+    .tab_line .nav-pills .nav-link {
+        font: 21px/28px 'Apercu Pro Medium';
+    }
+
+    .email button {
+        font: 12px/26px 'Apercu Pro Bold';
+    }
+
+    .email .input-group button {
+        width: 83px;
+    }
+
+    .number_block_right {
+        width: 82%;
+    }
+
+    .lamp {
+        height: auto;
+    }
+
+    .address_footer_section {
+        flex-direction: column;
+    }
+
+    .social_btn {
+        margin: 20px auto 0;
+    }
+
+    .free {
+        width: 71%;
+    }
+
+    .logos div {
+        margin: 17px auto;
+        width: 192px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+    }
+    .point span {
+        width: 45px;
+        height: 44px;
+        font: 21px/26px 'Apercu Pro Bold';
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .free {
+        width: 90%;
+        margin: auto;
+    }
+    .proposal .free {
+        margin: auto;
+    }
+    .how_it_work {
+        margin: 0 0 20px 0;
+        font: 32px/42px 'Apercu Pro Bold';
+    }
+    .accordion span {
+        margin-right: 10px;
+    }
+    .faq h2 {
+        font: 33px/40px 'Apercu Pro Bold';
+    }
+    .about_homer_renovation h2 {
+        font: 24px/80% "Apercu Pro Bold";
+    }
+    .email .input-group {
+        width: 100%;
+        height: 45px;
+
+    }
+    .upgrade_content {
+        padding: 0 10px;
+    }
+    .learn_more h2 {
+        font: 33px/40px 'Apercu Pro Bold';
+    }
+    .user h2 {
+        font: 16px/18px 'Apercu Pro Medium';
+    }
+    .before_after .about {
+        font: 22px/140% 'Apercu Pro Medium';
+    }
+    .why {
+        font: 35px/30px 'Apercu Pro Bold';
+    }
+    .why_homer {
+        margin-top: 40px;
+        padding-top: 39px;
+    }
+    .tabs_content h2 {
+        font: 26px/30px 'Apercu Pro Bold';
+    }
+    .blue_area h2 {
+        font: 38px/100% 'Apercu Pro Medium';
+    }
+    .blue_button img {
+        margin-left: 10px;
+        width: 10px;
+    }
+    .blue_area {
+        padding: 43px 21px 52px;
+        height: auto;
+    }
+    .started .blue_button {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
